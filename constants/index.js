@@ -28,3 +28,21 @@ export const product_img = [
 ]
 
 
+export const colors = [
+  {
+    id:0,
+    color : "#EFB522"
+  },
+  {
+    id:1,
+    color : "#E2E2E2"
+  },
+  {
+    id:2,
+    color : "#2A2727"
+  },
+  {
+    id:3,
+    color : "#5F73FB"
+  }
+]

@@ -17,15 +17,15 @@ const Nav = () => {
 
       <div className='flex justify-center gap-10 font-[16px] items-center mr-16 '>
         <Link href="/">
-          <h1 className='text-[#222222]  drop-shadow-lg cursor-pointer font-semibold ' >Shop Now ▼</h1>
+          <h1 className='text-[#222222]  drop-shadow-lg cursor-pointer font-semibold opacity-80 ' >Shop Now ▼</h1>
         </Link>
 
         <Link href="/">
-          <h1 className='text-[#222222]  drop-shadow-lg cursor-pointer font-semibold ' >How To Play</h1>
+          <h1 className='text-[#222222]  drop-shadow-lg cursor-pointer font-semibold opacity-80 ' >How To Play</h1>
         </Link>
 
         <Link href="/">
-          <h1 className='text-[#222222]  drop-shadow-lg cursor-pointer font-semibold ' >Contact Us</h1>
+          <h1 className='text-[#222222]  drop-shadow-lg cursor-pointer font-semibold  opacity-80' >Contact Us</h1>
         </Link>
       </div>
 
