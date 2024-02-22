@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ['"Source Serif 4"', 'serif'],
+        italic:['"Source italic"' , 'italic']
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
