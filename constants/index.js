@@ -70,3 +70,39 @@ export const FAQ1 = [
     answer: "When you purchase a Tongue Drum from Balmy World, you're not just buying an instrument – you're investing in a musical experience. Each Tongue Drum comes complete with everything you need to start playing right away, including a set of mallets, a carrying case for easy transportation, and our comprehensive guide to getting started. It's everything you need to unlock your creativity and immerse yourself in the world of handpan music."
   }
 ];
+
+
+
+export const videoSectionPhrases = [
+  {
+    id: 0,
+    image: "/frame_one_music.png",
+    phrase: "Comes With a Charming Knitted Wrap."
+  },
+  {
+    id: 1,
+    image: "/frame_one_music.png",
+    phrase: " Balmy Drums. (Because this has the most space inside for sounds to resonate. The room is more than double inside)"
+  },
+  {
+    id: 2,
+    image: "/frame_one_music.png",
+    phrase: `15 Most Calming Tones. (That's 7 and 4 more (also deeper) tones than 6-10" Balmy Drums respectively)` 
+  },
+  {
+    id: 3,
+    image: "/frame_one_music.png",
+    phrase:  "Number Guided 50 Songs Hard Cover Book ($69) For Free."
+  },
+  {
+    id: 4,
+    image: "/frame_one_music.png",
+    phrase: "4 Colors To Choose From."
+  },
+  {
+    id: 5,
+    image: "/frame_one_music.png",
+    phrase: "Free Shipping."
+  },
+
+]

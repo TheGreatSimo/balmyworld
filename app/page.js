@@ -1,5 +1,6 @@
 import { Hero } from "@/components";
 import { VideoSection } from "@/components";
+import { SizeSection } from "@/components";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="">
       <Hero />
       <VideoSection />
+      <SizeSection />
     </main>
   );
 }
