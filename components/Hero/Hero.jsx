@@ -11,7 +11,7 @@ const Hero = () => {
         <Top />
         <Nav />
       </div>
-      <div className="flex mx-40 mt-16 gap-10">
+      <div className="flex mx-40 mt-16 gap-14">
         <div className="flex-1" >
           <Left />
         </div>

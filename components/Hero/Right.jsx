@@ -23,9 +23,9 @@ const Right = () => {
   
   return (
     <div className="">
-      <div className="flex justify-start gap-4">
-        <div className="bg-[#FFD271] w-40 rounded-3xl">
-          <Image src="/stars.png" width={300} height={50} alt="starts" />
+      <div className="flex justify-start gap-4 ">
+        <div className="bg-[#FFD271] w-[125px] h-[30px] rounded-3xl flex justify-center items-center ">
+          <Image src="/stars_1.png" width={85} height={13} alt="starts" />
         </div>
         <div className="flex justify-center items-center">
           <h2 className="text-center text-[#222222] ">
@@ -37,10 +37,17 @@ const Right = () => {
       <h1 className="font-serif text-[#222222] text-[50px] font-medium mt-3   ">
         Meet Balmy
       </h1>
+
+
       <h2 className=" font-semibold  font-italic ">
-        Hand-Crafted, Authecnic Drum
       </h2>
-      <p className="font-medium mt-3 text-[#222222]">
+
+      <div className="relative inline-block">
+        <div style={{ borderBottom: "10px solid #F2E5BF" }} className="absolute bottom-2 left-0 w-full  border-yellow-300"></div>
+        <p className="font-serif text-2xl relative text-[20px]  z-10 text-[#222222] font-semibold ">Hand-Crafted, Authecnic Drum</p>
+      </div>
+
+      <p className="font-medium mt-3 text-[16px] text-[#222222]">
         Sound healing, mesmerizing harmonies even without any experience in just
         seconds.
       </p>
@@ -77,7 +84,7 @@ const Right = () => {
           <div onClick={() => HandleCard(1)}  className={`flex bg-[#E8E4DA] flex-col  shadow-lg  justify-center w-[132px] h-auto rounded-lg cursor-pointer ${activeCard === 1 ? 'border-2 border-blue-500 ' : ''} `} >
             <div   className="bg-yellow-500 h-5  text-[#53482B] font-semibold text-[12px] text-center  rounded-t-md   ">MOST POPULAR</div>
             <div className="flex justify-center">  
-              <Image src="/drumb_10.png" width={101} height={101} alt="dumb"/>
+              <Image src="/drumb_10.png" width={191} height={191} alt="dumb"/>
             </div>
             <p className="text-[#222222] font-serif text-[20px] text-center  font-medium" >11 Tones</p> 
             <p className="text-[#706D65] text-center" >10 inches </p> 
@@ -88,7 +95,7 @@ const Right = () => {
           <div onClick={() => HandleCard(2)}  className={` flex bg-[#E8E4DA] flex-col  shadow-lg  justify-center w-[172px] h-auto rounded-lg cursor-pointer ${activeCard === 2 ? 'border-2 border-blue-500 ' : ''}   `} >
             <div  className="bg-yellow-500 h-5  text-[#53482B] font-semibold text-[12px] text-center  rounded-t-md  ">BEST VALUE </div>
             <div className="flex justify-center">  
-              <Image src="/drumb_10.png" width={141} height={141} alt="dumb"/>
+              <Image src="/drumb_10.png" width={241} height={241} alt="dumb"/>
             </div>
             <p className="text-[#222222] font-serif text-[20px] text-center  font-medium" >15 Tones</p> 
             <p className="text-[#706D65] text-center" >14 inches </p> 
