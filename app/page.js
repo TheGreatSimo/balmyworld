@@ -1,6 +1,7 @@
 import { Hero } from "@/components";
 import { VideoSection } from "@/components";
 import { SizeSection } from "@/components";
+import { Books } from "@/components";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <VideoSection />
       <SizeSection />
+      <Books />
     </main>
   );
 }
