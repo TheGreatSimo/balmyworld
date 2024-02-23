@@ -126,18 +126,17 @@ const Right = () => {
   <AddToCard />
 
 
-  <div className="bg-[#F4E6D2] text-[#624C3C]  justify-start mt-5 rounded-full relative inline-block  h-8 items-center">
-  <div className="flex items-center"> {/* Added flex class and items-center for horizontal alignment */}
-    <p className="text-[#624C3C] text-[14px] ml-2">The sizes in our videos are 10 inches and 14 inches</p>
-    <Link href="/">
-      <p className="text-[14px] text-[#624C3C] underline ml-2 pr-5">Learn more</p> {/* Added ml-2 for margin */}
-    </Link>
-  </div>
-</div>
-
-
-
+    <div className="bg-[#F4E6D2] text-[#624C3C]  justify-start mt-5 rounded-full relative inline-block  h-8 items-center">
+      <div className="flex items-center"> {/* Added flex class and items-center for horizontal alignment */}
+        <p className="text-[#624C3C] text-[14px] ml-2">The sizes in our videos are 10 inches and 14 inches</p>
+        <Link href="/">
+          <p className="text-[14px] text-[#624C3C] underline ml-2 pr-5">Learn more</p> {/* Added ml-2 for margin */}
+        </Link>
+      </div>
     </div>
+
+
+  </div>
   );
 };
 
