@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ['"Source Serif 4"', 'serif'],
-        italic:['"Source italic"' , 'italic']
+        italic: ['"Source italic"', 'italic'],
+        'architects-daughter': ['"Architects Daughter"', 'cursive'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
