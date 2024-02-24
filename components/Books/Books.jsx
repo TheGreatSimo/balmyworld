@@ -31,7 +31,7 @@ const Books = () => {
           <button onClick={handleButton} className='w-[310px] h-[70px] bg-[#FFD271] text-[#222222] text-[20px] rounded-xl font-serif font-medium border-[0.2px] border-[#222222] mt-10 '>Choose Your Balmy Now!</button>
       </div>
 
-      <div className='flex-2  flex justify-center gap-10 mt-32 mr-20 flex-wrap'>
+      <div className='flex-2  flex justify-center gap-4 mt-32 mr-10 '>
         <Card  imageText="photo of 15 tones" buttonText="15 Tones (Best Value) " number="60"/>
         <Card  imageText="photo of 11 tones" buttonText="11 Tones (Most Popular)" number="30" />
         <Card  imageText="photo of 6 inches" buttonText="6 Inches (Demo Size)" number="10" />
