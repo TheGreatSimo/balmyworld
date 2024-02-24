@@ -48,7 +48,7 @@ export const colors = [
 ]
 
 
-export const FAQ1 = [
+export const FAQ0 = [
   {
     id: 0,
     question: "What Is Our Promise Sale?",
@@ -70,6 +70,46 @@ export const FAQ1 = [
     answer: "When you purchase a Tongue Drum from Balmy World, you're not just buying an instrument – you're investing in a musical experience. Each Tongue Drum comes complete with everything you need to start playing right away, including a set of mallets, a carrying case for easy transportation, and our comprehensive guide to getting started. It's everything you need to unlock your creativity and immerse yourself in the world of handpan music."
   }
 ];
+
+
+export const FAQ1 = [
+  {
+    id: 0,
+    question: "Do you ship worldwide?",
+    answer: "Yes! We ship worldwide and yet it is free until September 1st! You can order your Balmy Drum and get it delivered to your address without worrying about your location."
+  },
+  {
+    id: 1,
+    question: "How long does it take to arrive after purchase?",
+    answer: "Delivery times vary depending on your location. Typically, orders are processed within 1-2 business days and shipped via [Shipping Provider]. You will receive a tracking number once your order is shipped."
+  },
+  {
+    id: 2,
+    question: "How does the 30 Days Money Back Guarantee work?",
+    answer: "We are so confident with the quality of our handcrafted drums that if you are not satisfied with your purchase we will give you a full refund within 30 days of delivery, no questions asked."
+  },
+];
+
+export const FAQ2 = [
+  {
+    id: 0,
+    question: "What is included in the package?",
+    answer: "Each Balmy Drum package includes the drum itself, a set of drumsticks, and an instructional booklet to help you get started."
+  },
+  {
+    id: 1,
+    question: "What is the size and weight of the Balmy Drum?",
+    answer: "The Balmy Drum is [insert dimensions] and weighs approximately [insert weight]."
+  },
+  {
+    id: 2,
+    question: "How do I track my order?",
+    answer: "Once your order is shipped, you will receive a tracking number via email. You can use this tracking number to track your order on our website or the website of the shipping provider."
+  },
+];
+
+
+
 
 
 

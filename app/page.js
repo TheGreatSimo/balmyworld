@@ -5,6 +5,10 @@ import { Books } from "@/components";
 import { FunFacts } from "@/components";
 import { Messages } from "@/components";
 import { Sale } from "@/components";
+import { FAQ } from "@/components";
+import { Comments } from "@/components";
+import { Badges } from "@/components";
+import { Footer } from "@/components";
 
 
 export default function Home() {
@@ -17,6 +21,10 @@ export default function Home() {
       <FunFacts />
       <Messages />
       <Sale />
+      <FAQ />
+      <Comments />
+      <Badges />
+      <Footer />
     </main>
   );
 }

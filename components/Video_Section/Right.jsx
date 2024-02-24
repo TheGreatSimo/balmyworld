@@ -1,5 +1,5 @@
 import FAQOne from "./FAQOne";
-import { FAQ1 } from "@/constants";
+import { FAQ0 } from "@/constants";
 
 const Right = () => {
   return (
@@ -17,7 +17,7 @@ const Right = () => {
 
 
       <div className="mt-10 flex-col gap-8" >
-        {FAQ1.map((item) => 
+        {FAQ0.map((item) => 
           <div className="mb-6" key={item.id} >
             <FAQOne question={item.question} answer={item.answer} />
           </div>

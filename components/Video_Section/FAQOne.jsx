@@ -22,7 +22,7 @@ const FAQOne = ({ question, answer }) => {
         </div>
       </div>
       {expanded && (
-        <div className="mx-20 mt-1 h-auto font-[#353535] text-[16px] mb-2 opacity-70 ">{answer}</div>
+        <div className="mx-20 mt-1 h-auto font-[#353535] text-[16px] mb-10 opacity-70 ">{answer}</div>
       )}
     </div>
   );

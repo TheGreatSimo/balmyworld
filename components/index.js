@@ -5,6 +5,10 @@ import Books from "./Books/Books"
 import FunFacts from "./Fun_Facts/FunFacts"
 import Messages from "./Messages/Messages"
 import Sale from "./Sale/Sale"
+import FAQ from "./Faq/FAQ"
+import Comments from "./Comments/Comments"
+import Badges from "./Badges/Badges"
+import Footer from "./Footer/Footer"
 
 export { 
   Hero,
@@ -14,4 +18,8 @@ export {
   FunFacts,
   Messages,
   Sale,
+  FAQ,
+  Comments,
+  Badges,
+  Footer
 }
