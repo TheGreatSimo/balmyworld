@@ -8,6 +8,10 @@ import { forstars } from '@/constants'
 const Comments = () => {
   const [selectedChoice, setSelectedChoice] = useState(5);
 
+  const handleClick = () => {
+    alert("ok")
+  }
+
   const handleChoiceChange = (event) => {
     setSelectedChoice(event.target.value);
   };
@@ -64,10 +68,9 @@ const Comments = () => {
                   <div>No reviews available for this choice</div>
                 )}
             </div>
-
-
-
-
+        </div>
+        <div className='flex justify-center' >
+          <button onClick={handleClick} className='mt-14 bg-[#FFD271] w-[206px] h-[70px] rounded-xl border-[1px] border-[#414141] text-[#222222] text-[20px] font-semibold font-serif '>Learn More</button>
         </div>
       </div>
     </div>
