@@ -39,7 +39,7 @@ const SizeSection = () => {
       <p className="text-[#353535] text-[20px] text-center  " >Each Balmy is elaborately hand-crafted to give you the most soothing special tones in harmony.</p>
       
 
-      <div className="flex justify-end mx-60 mt-10" >
+      <div className="flex justify-end mx-80 mt-10" >
         <Image src="/click_tabs.png" height={77} width={174} alt="click tabs" />
       </div>
       
@@ -58,12 +58,12 @@ const SizeSection = () => {
     <div className="">
 
       <div className="flex justify-center z-10 ">
-        <div className="w-[1355px] h-[802px] bg-[#F0EBDD] rounded-2xl flex shadow-2xl z-0 static mt-6 ">
-          <div className="flex justify-end absolute 2xl:right-80  max-2xl:right-20 max-md:right-4  ">
+        <div className="w-[1355px] h-[802px] bg-[#F0EBDD] rounded-2xl flex shadow-2xl z-0 static mt-2 ">
+          <div className="flex justify-end absolute 2xl:right-[200px] right-[184px] max-md:right-4   ">
             <Image src="/drumstick.png" width={54} height={54} />
           </div>
 
-          <div name="left" className="flex-1 flex-col ml-10 mt-10 " >
+          <div name="left" className="flex-1 flex-col ml-10 mt-14 " >
             <div className="bg-[#FFD271] h-[55px] w-[501px] rounded-2xl z-0 ml-4 border-[0.1px] border-[#414141]  " >
               <h2 className="text-[32px] font-serif text-[#222222] text-center" >14 Inches - 15 Tones (Best Value)</h2>
             </div>
