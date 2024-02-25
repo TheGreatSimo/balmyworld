@@ -110,9 +110,6 @@ export const FAQ2 = [
 
 
 
-
-
-
 export const videoSectionPhrases = [
   {
     id: 0,
@@ -144,5 +141,85 @@ export const videoSectionPhrases = [
     image: "/frame_one_music.png",
     phrase: "Free Shipping."
   },
+
+]
+
+export const comments = [
+  {
+    id: 0,
+    image: "/person_1.png",
+    name: "Paige R",
+    comment: "Who knew this thing would make my singing bowls jealous? This little gem has become my favorite way to unwind, and it's way more fun to play than those bowls!"
+  },
+  {
+    id: 1,
+    image: "/person_2.png",
+    name: "Courtney P",
+    comment: "I never thought I could play an instrument, but this drum is a game changer. It's so easy to create calming sounds, even for a newbie like me. Trust me, you don't need to be a pro to enjoy it. It came with a song and instruction book, and it was very easy to understand and play right away."
+  },
+  {
+    id: 2,
+    image: "/person_3.png",
+    name: "Poppy P",
+    comment: "I tried this drum at a sound healing session, and I was hooked. It's got this amazing vibe, and I feel so much more in tune with myself when I play it. Definitely worth checking out"
+  },
+  {
+    id: 3,
+    image: "/person_4.png",
+    name: "Tia W",
+    comment: "I discovered the Balmy Drum at a local sound healing event, and I was immediately captivated by its soothing tones. Since purchasing one for myself, it has become an... Read more"
+  },
+  {
+    id: 4,
+    image: "/person_5.png",
+    name: "Angela R",
+    comment: "I've never been musically inclined, but this instrument is just perfect for me. It's so simple to create beautiful, calming sounds. If I can do it, anyone can"
+  },
+  {
+    id: 5,
+    image: "/avatar.png",
+    name: "Deanna W",
+    comment: "Honestly, this thing is like a portable spa for your ears. I never knew how much I needed it until I tried it."
+  },
+  {
+    id: 6,
+    image: "/person_6.png",
+    name: "Aubrey J",
+    comment: "I'm a therapist, and I decided to introduce the Balmy Drum into my practice as a form of sound therapy for my clients. The response has been overwhelmingly positive, with many clients... Read more"
+  },
+  {
+    id: 7,
+    image: "/person_7.png",
+    name: "Chana A",
+    comment: "I never thought I could play an instrument, but this drum is a game changer. It's so easy to create calming sounds, even for a newbie like me. Trust me, you don't need to be a pro to enjoy it... Read more"
+  },
+
+]
+
+export const forstars = [
+  {
+    id: 0,
+    image: "/person_6.png",
+    name: "Jordan M",
+    comment: "While the Balmy Drum has a nice sound, I found it a bit challenging to get the hang of at first. It took me some time to produce the desired tones, and I wish there were more beginner-friendly resources included."
+  },
+  {
+    id: 1,
+    image: "/avatar.png",
+    name: "Samuel H",
+    comment: "Honestly, I was expecting more from the Balmy Drum. It's decent, but it didn't quite meet my expectations in terms of sound quality. Perhaps I need more practice, but for now, it's just okay for me."
+  },
+  {
+    id: 2,
+    image: "/person_5.png",
+    name: "Eva L",
+    comment: "I bought the Balmy Drum hoping for a unique musical experience, but I found the sound to be somewhat lacking in depth. It's fun to play around with, but I'm not sure it's worth the price tag for what it offers."
+  },
+  {
+    id: 3,
+    image: "/person_7.png",
+    name: "Derek S",
+    comment: "I have mixed feelings about the Balmy Drum. While it's a neat concept, I encountered some issues with durability. Mine seemed to show signs of wear sooner than expected, which was disappointing."
+  }
 
 ]
